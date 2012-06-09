@@ -29,7 +29,7 @@ function google2mail(googleJSON) {
 
 	function generateId() {
 		generateId.lastId = generateId.lastId + 1 || 1;
-		return generateId.lastId;
+		return generateId.lastId.toString();
 	}
 	
 	function parseBirthday(str) {
