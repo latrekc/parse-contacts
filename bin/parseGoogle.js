@@ -12,5 +12,5 @@ try {
 }
 
 function debugJSON(json) {
-	console.log(require('../lib/beautify').js_beautify(JSON.stringify(json)));
+	console.log(require('../lib/js-beautify/beautify').js_beautify(JSON.stringify(json)));
 }
